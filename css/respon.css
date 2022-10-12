@@ -1,0 +1,164 @@
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        background: url("../images/bg-mobile.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+    .container .container-items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container .container-item,
+    .container .container-item2,
+    .container .container-item3{
+        width: 100%;
+        padding: 10px;
+    }
+    .container .icon{
+        display: block;
+    }
+    .container .container-itemed{
+        display: block;
+    }
+    .container .playweb{
+        display: block;
+    }
+    .container .text{
+        display: block;
+    }
+    .container .container-item,
+    .container .container-item3{
+        display: none;
+    }
+    .container .login-register{
+        display: none;
+    }
+    .container .video{
+        border: 2px solid #FF9671;
+        margin-top: 0;
+    }
+    .container .container-item2 .slogan{
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    .footer .footer-items .footer-text{
+        font-size: 12px;
+        padding: 0 8px;
+
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    body{
+        background: url("../images/bg-mobile.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+    .container .container-items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container .icon .phone,
+    .container .icon .livechat{
+        width: 16%;
+    }
+    .container .container-item,
+    .container .container-item2,
+    .container .container-item3{
+        width: 100%;
+        padding: 10px;
+    }
+    .container .icon{
+        display: block;
+    }
+    .container .container-itemed{
+        display: block;
+    }
+    /* playweb */
+    .container .playweb{
+        display: block;
+    }
+    .container .playweb .caidat{
+        display: none;
+    }
+    .container .playweb .caidat2{
+        display: block;
+    }
+    .container .playweb .playweb-img{
+        width: 80%;
+        margin: auto;
+    }
+    .container .playweb .img1{
+        margin-top: 10px
+    }
+    .container .playweb .img2{
+        margin-top: 10px;
+        width: 65%;
+    }
+    .container .playweb .img3{
+        width: 100%;
+    }
+    .container .text{
+        display: block;
+    }
+    .container .container-item,
+    .container .container-item3{
+        display: none;
+    }
+    .container .login-register{
+        display: none;
+    }
+    .container .video{
+        border: 2px solid #FF9671;
+        margin-top: 0;
+    }
+    .container .logo{
+        width: 50%;
+        margin: auto;
+    }
+    .container .container-item2 .slogan{
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .footer .footer-items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-items .footer-text{
+        font-size: 15px;
+        padding: 0 8px;
+        margin: auto;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .slider {
+        margin: 0 auto;
+        width: 68%;
+        height: 300px;
+        position: relative;
+    }
+    .container-item3 .de{
+        width: 90%;
+    }
+    .chat .chat-img{
+        width: 80%;
+    }
+    .chat .chat-text{
+        font-size: 15px;
+    }
+
+}
